@@ -122,3 +122,45 @@
     letter-spacing: 1px;
     word-spacing: 1px;
 }
+
+div.padding-medium ol li{
+    list-style-type: upper-roman;
+    position: relative;
+}
+
+div.padding-medium ol li a{
+    position: relative;
+    margin-left: 8px;
+    color: #000;
+}
+
+div.padding-medium ol li:nth-child(-n+2) a{
+    color: orange;
+    opacity: 0.5;
+}
+
+div.padding-medium ol li:nth-child(1) a::after,div.padding-medium ol li:nth-child(3) a::after {
+    position: absolute;
+    top: 0;
+    right: -25px;
+    color: red;
+    content: "New";
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 1;
+}
+
+div.padding-medium ol li:nth-child(4) a{
+    color: orange;
+    font-weight: 600;
+}
+
+div.padding-medium ol li:nth-child(4) a::after{
+    position: absolute;
+    top: 3px;
+    left: -5px;
+    width: 2px;
+    height: 17px;
+    background: orange;
+    content: "";
+}
