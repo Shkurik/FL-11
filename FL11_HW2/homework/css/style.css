@@ -1,0 +1,72 @@
+@media print {
+    body{
+        background-color: white;
+    }
+
+    .tm-sidebar,
+    #about,
+    .flex-item.tm-team-img,
+    .flex-item.tm-team-img,
+    section.blocks div.tm-content-box,
+    .carousel-indicators,
+    #ideas + section.tm-content-box{
+        display: none;
+    }
+
+    #home, .tm-content-box{
+        margin-bottom: 0px;
+    }
+
+    .tm-main-content, .tm-banner-inner, #tmCarousel{
+        padding: 0px;
+    }
+
+    .container .tm-main-content h2{
+        margin: 15px 0 15px 0;
+        padding: 0;
+        text-transform: uppercase;
+        color: lightskyblue;
+        font-weight: normal;
+    }
+
+    .tm-team-description-container, p.tm-section-description, .heading.tm-content-box div.padding-medium, p.text-xs-center{
+        text-align: center;
+        max-width: 100%;
+        font-size: 10px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .heading h2{
+        text-align: center;
+    }
+
+    .heading ol li{
+        list-style-type: none
+    }
+
+    .heading li{
+        text-align: left;
+    }
+
+    .heading li:first-letter{
+        color: lightskyblue;
+        font-size: 20px;
+    }
+
+    .heading li:nth-child(even){
+        color:#F00;
+        text-align: right;
+    }
+
+    .heading .padding-medium a{
+        color: black;
+        font-size: 12px;
+    }
+
+    div.padding-medium ol{
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
