@@ -116,3 +116,9 @@
 .tm-banner-inner{
     background-color: #ffffff;
 }
+
+.tm-banner-text{
+    text-shadow: 11px 6px 7px #76CDD7;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
