@@ -70,3 +70,20 @@
         padding: 0;
     }
 }
+
+#about li h2{
+    transition: background-color 1s ease;
+}
+
+#about li h2:hover{
+    background-color: #87cefa;
+    color: white;
+}
+
+#about li a img:hover{
+    opacity: 0.5;
+}
+
+#about li a img{
+    transition: opacity 1s ease;
+}
