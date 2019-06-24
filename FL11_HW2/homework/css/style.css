@@ -164,3 +164,24 @@ div.padding-medium ol li:nth-child(4) a::after{
     background: orange;
     content: "";
 }
+
+.blocks .gallery-container li{
+    padding: 10px;
+}
+
+.blocks .gallery-container p:first-letter{
+    font-size: 16px;
+}
+
+.blocks .gallery-container p{
+    font-style: italic;
+    font-size: 10px;
+}
+
+.blocks .gallery-container h2{
+    font-size: 22px;
+}
+
+.blocks .gallery-container li:nth-child(even){
+    background-color: #F2F2F2;
+}
