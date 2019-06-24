@@ -123,6 +123,15 @@
     word-spacing: 1px;
 }
 
+.tm-banner-text:hover{
+    transform: rotateY(360deg);
+    transition: transform 1s linear;
+}
+
+.tm-banner-text:first-letter{
+    color: #7aced8;
+}
+
 div.padding-medium ol li{
     list-style-type: upper-roman;
     position: relative;
