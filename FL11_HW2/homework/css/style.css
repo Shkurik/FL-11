@@ -185,3 +185,39 @@ div.padding-medium ol li:nth-child(4) a::after{
 .blocks .gallery-container li:nth-child(even){
     background-color: #F2F2F2;
 }
+
+form.contact-form input{
+    border: 0;
+    border-bottom: 2px solid #91d2fa;
+}
+
+form.contact-form input:focus, form.contact-form textarea:focus{
+    color: white;
+    border: 2px solid #91d2fa;
+    border-radius: 10px;
+    background-color: #76cdd7;
+    background-image: url("../img/email-icon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px 30px;
+}
+
+form.contact-form input:focus::placeholder, form.contact-form textarea:focus::placeholder{
+    color: white;
+}
+
+form.contact-form textarea, form.contact-form button{
+    border: 2px solid #91d2fa;
+    background-color: white;
+}
+
+form.contact-form button{
+    color: #91d2fa;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+#contact{
+    position: relative;
+}
