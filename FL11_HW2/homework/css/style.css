@@ -228,3 +228,7 @@ form.contact-form button:hover{
 #contact{
     position: relative;
 }
+
+.tm-main-nav .tm-nav-item a:hover{
+    background-color: lightgrey;
+}
