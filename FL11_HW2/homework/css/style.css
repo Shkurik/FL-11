@@ -218,6 +218,13 @@ form.contact-form button{
     bottom: 10px;
 }
 
+form.contact-form button:hover{
+    color: #d6f0fe;
+    background-color: #9fd8fb;
+    border: 2px solid #8bd0fa;
+    border-radius: unset;
+}
+
 #contact{
     position: relative;
 }
