@@ -232,3 +232,11 @@ form.contact-form button:hover{
 .tm-main-nav .tm-nav-item a:hover{
     background-color: lightgrey;
 }
+
+.tm-team-description-container h2 + p{
+    font-style: italic;
+}
+
+.tm-team-description-container p{
+    text-indent: 1.5em;
+}
