@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans");*/
 
 * {
     margin: 0;
@@ -13,6 +13,11 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 ol, ul {
@@ -36,20 +41,13 @@ button {
     cursor: pointer;
 }
 
-::placeholder {
-    color: #000;
-}
-
 img {
     display: block;
 }
 
-body {
-    position: relative;
-    width: 900px;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+
+::placeholder {
+    color: #000;
 }
 
 .header {
@@ -101,10 +99,6 @@ body {
     font-size: 39px;
 }
 
-.banner header h1 span {
-    font-size: 69px;
-}
-
 .banner-nav {
     position: absolute;
     bottom: 80px;
@@ -116,11 +110,25 @@ body {
     justify-content: space-evenly;
 }
 
+.banner header h1 span {
+    font-size: 69px;
+}
+
 .banner-nav a {
     display: block;
     padding: 11px 66px;
     border: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.big-footer {
+    padding: 31px 21px;
+    background-color: #F3F3F3;
+}
+
+.big-footer p {
+    padding-right: 31px;
+    padding-bottom: 21px;
 }
 
 .intro {
@@ -165,32 +173,32 @@ body {
     right: 0;
     left: 0;
     display: flex;
+    box-shadow: inset 1px 1px 300px -109px rgba(0, 0, 0, 1);
+    font-size: 12px;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    color: #fff;
-    box-shadow: inset 1px 1px 300px -109px rgba(0, 0, 0, 1);
-    font-size: 12px;
+    color: #ffffff;
 }
 
 .sm-det button {
+    border: 1px solid #F0F0F0;
+    background-color: rgba(0, 0, 0, 0.5);
     margin-top: 16px;
     margin-right: 16px;
     padding: 6px 11px;
     text-align: right;
     color: #F0F0F0;
-    border: 1px solid #F0F0F0;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .sm-det a {
+    background-color: rgba(9, 119, 116, 0.8);
+    font-weight: 700;
     align-self: center;
     width: 77%;
     padding: 8px;
     text-align: center;
-    background-color: rgba(9, 119, 116, 0.8);
-    font-weight: 700;
 }
 
 .sm-det span {
@@ -251,10 +259,10 @@ body {
 }
 
 .news img {
-    width: 100%;
-    height: 236px;
     object-position: left;
     object-fit: cover;
+    width: 100%;
+    height: 236px;
 }
 
 .news .sm-det {
@@ -273,14 +281,22 @@ body {
     background-color: #097774;
 }
 
-.big-footer {
-    padding: 31px 21px;
-    background-color: #F3F3F3;
+.sm-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
 }
 
-.big-footer p {
-    padding-right: 31px;
-    padding-bottom: 21px;
+.sm-footer span {
+    color: #9E9E9E;
+}
+
+.sm-footer-nav li {
+    margin-left: 15px;
+}
+
+.sm-footer-nav {
+    display: flex;
 }
 
 .suns-form {
@@ -307,22 +323,4 @@ body {
     color: #fff;
     background-color: #097774;
     font-weight: 700;
-}
-
-.sm-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 21px 0;
-}
-
-.sm-footer span {
-    color: #9E9E9E;
-}
-
-.sm-footer-nav {
-    display: flex;
-}
-
-.sm-footer-nav li {
-    margin-left: 15px;
 }
